@@ -97,3 +97,29 @@ a {
 }
 
 
+.cta__arrow {
+	stroke: #ffffff;
+	fill: transparent;
+	stroke-width: 3px;	
+	animation: arrow 1.5s infinite;
+	-webkit-animation: arrow 1.5s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0; transform:translateY(10px)}
+80% {opacity:1; transform:translateY(25px)}
+100% {opacity:0; transform:translateY(25px)}
+}
+
+@keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0; transform:translateY(5px)}
+80% {opacity:1; transform:translateY(25px)}
+100% {opacity:0; transform:translateY(25px)}
+}
+
+.cta__arrow path {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari and Chrome */
+}
