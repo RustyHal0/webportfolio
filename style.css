@@ -7,7 +7,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'JetBrains Mono';
-  
 }
 
 html {
@@ -18,7 +17,6 @@ html {
 
 body {
     background: #F3F3F3 0% 0% no-repeat padding-box;
-   
 }
 
 @media only screen and (min-width: 992px) {
@@ -40,8 +38,6 @@ body {
     margin-top: 5px; 
     margin-bottom: 5px;
 } 
-
-
 
 section {
     min-height: 100vh;
@@ -70,6 +66,19 @@ a {
     font-size: 0;
 }
 
+.socials__link:hover { font-weight: 600;}
+/* Zoom In #1 */
+.socials__link a img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.socials__link a:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
 .cta {
     position: absolute;
     left: 50%;
@@ -81,9 +90,10 @@ a {
 .cta__text {
     padding-top: 2rem;
     margin-top: 2rem;
+    font-weight: 600;
     color: #a5a5a5;
-    
 }
+
 .cta__arrowdown {
     display: inline-block;
     margin-top: 0.5rem;
@@ -95,14 +105,14 @@ a {
     font-weight: 600;
     text-decoration: underline;
 }
-
+.link_portfolio:hover { color: #313131;}
 
 .cta__arrow {
 	stroke: #ffffff;
 	fill: transparent;
 	stroke-width: 3px;	
-	animation: arrow 1.5s infinite;
-	-webkit-animation: arrow 1.5s infinite; 
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
 }
 
 @keyframes arrow

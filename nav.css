@@ -5,9 +5,7 @@
 }
 
 .navbar-toggler {
-    background: #F3F3F3 0% 0% no-repeat padding-box;
-
-      
+    background: #F3F3F3 0% 0% no-repeat padding-box;    
 }
 
 .navbar-toggler > img {
@@ -72,7 +70,6 @@ nav.mainmenu ul li a:hover:after {
   opacity: 1;
 }
 
-/* Keyframes */
 @keyframes fill {
     0% {
       width: 0%;
