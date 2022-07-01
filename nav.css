@@ -12,10 +12,6 @@
     margin-bottom: 5px;
 } 
 
-.navbar-toggler {
-    background: #F3F3F3 0% 0% no-repeat padding-box;    
-}
-
 .navbar-toggler > img {
     width: 1.25rem;
     vertical-align: middle;    
