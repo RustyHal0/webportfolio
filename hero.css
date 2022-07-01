@@ -1,0 +1,19 @@
+.hero {
+    display: flex;
+    width:auto;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+.hero__title{
+  font-size: 3.5rem;
+  line-height: 6rem;
+  font-weight: 600;
+}
+
+.hero__caption{
+    font-size: 1.75rem;
+    line-height: 2rem; 
+}

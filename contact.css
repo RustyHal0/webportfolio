@@ -1,0 +1,137 @@
+/** CONTACT **/
+.contact {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact__header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 5rem;
+  }
+  
+  .contact__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .detail {
+    width: 450px;
+    margin-top: 2rem;
+  }
+  
+  .detail--borderleft {
+    border-left: 1px solid #e2e2e2;
+    padding-left: 1.5rem;
+    
+  }
+  
+  .detail__header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .quotes {
+    margin-top: 5rem;
+    line-height: 2rem;
+  }
+  
+  .form-control{
+    background-color: #f3f3f3;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  .form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .form__group label {
+    line-height: 2rem;
+  }
+  
+  .form__group input {
+    padding: 0.75rem;
+  }
+  
+  .form__group textarea {
+    padding: 0.75rem;
+    border-color: #a5a5a5;
+  }
+  
+  .form__submit {
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    padding: 1rem 2rem;
+    display: inline-block;
+    transition: 0.25s all;
+  }
+  
+  .form__submit:hover {
+    background-color: #313131;
+    color: #fff;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .detail--borderleft {
+      border-left: none;
+    }
+  
+    .nav.hide {
+      display: none;
+    }
+  
+    .nav.show {
+      position: absolute;
+      right: 0;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      margin-left: auto;
+      background: #fff;
+      border: 1px solid #e2e2e2;
+      padding: 0.5rem 1rem;
+      min-width: 200px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .wrapper {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+  
+    .nav__btn {
+      display: none;
+    }
+  
+    header ul.nav {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .nav__link {
+      display: inline-block;
+      margin: 0 1.25rem;
+    }
+  
+    .form__group {
+      padding-left: 3rem;
+    }
+  
+    .form__submit {
+      margin-left: 3rem;
+    }
+  }
