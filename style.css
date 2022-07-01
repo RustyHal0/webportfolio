@@ -81,7 +81,8 @@ a {
 .cta__text {
     padding-top: 2rem;
     margin-top: 2rem;
-    color: #313131;
+    color: #a5a5a5;
+    
 }
 .cta__arrowdown {
     display: inline-block;
@@ -90,5 +91,9 @@ a {
     text-align: center;
 }
 
+.link_portfolio {
+    font-weight: 600;
+    text-decoration: underline;
+}
 
 
