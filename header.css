@@ -2,7 +2,7 @@ header {
     position: fixed;
     width: 100%;
     background: #f3f3f3;
-    padding: .5rem 0;
+    padding: .80rem 0;
     z-index: 999;
   }
 header > .wrapper { 
